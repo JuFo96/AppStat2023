@@ -1,0 +1,13 @@
+name: appstat
+channels:
+- conda-forge
+dependencies:
+- python=3.9
+- numpy
+- matplotlib
+- seaborn
+- scipy
+- pandas
+- sympy
+- iminuit
+- notebook
