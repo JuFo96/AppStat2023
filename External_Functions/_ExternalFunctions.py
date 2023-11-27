@@ -11,11 +11,15 @@ def format_value(value, decimals):
     Floats have 'decimals' number of decimals.
     """
     
+<<<<<<< HEAD:External_Functions/_ExternalFunctions.py
 <<<<<<< HEAD
     if isinstance(value, float):
 =======
     if isinstance(value, (float, np.float64)):
 >>>>>>> ae0974e (np.float -> float fix, error propagation done)
+=======
+    if isinstance(value, (float, np.float64)):
+>>>>>>> refs/remotes/origin/main:External_Functions/ExternalFunctions.py
         return f'{value:.{decimals}f}'
     elif isinstance(value, int):
         return f'{value:d}'
